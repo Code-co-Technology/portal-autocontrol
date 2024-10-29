@@ -142,7 +142,7 @@ AUTHENTICATION_BACKENDS = [
     # 'authen.authentication.EmailOrUsernameModelBackend',
 ]
 
-# AUTH_USER_MODEL = "authen.CustomUser"
+AUTH_USER_MODEL = "authen.CustomUser"
 
 SWAGGER_SETTINGS = {
     "SECURITY_DEFINITIONS": {
