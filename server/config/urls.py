@@ -27,6 +27,7 @@ urlpatterns = [
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     path('api/token/refresh/', jwt_views.TokenRefreshView.as_view(), name='token_refresh'),
     path('', include('authen.urls')),
+    path('', include('car_app.urls')),
 ]
 
 if settings.DEBUG:

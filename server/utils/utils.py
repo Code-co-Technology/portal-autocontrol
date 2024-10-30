@@ -5,7 +5,7 @@ from django.utils.encoding import smart_bytes
 from django.contrib.sites.shortcuts import get_current_site
 from django.conf import settings
 from django.urls import reverse
-1
+
 
 class Util:
     @staticmethod
